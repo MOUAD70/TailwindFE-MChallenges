@@ -1,0 +1,11 @@
+@tailwind base;
+
+.left-chat-box {
+  @apply p-2 rounded-bl-sm max-w-32 rounded-xl text-xxs bg-grayishViolet text-moderateViolet;
+}
+
+.right-chat-box {
+  @apply self-end p-2 bg-white rounded-br-sm shadow-md max-w-32 rounded-xl text-xxs text-desaturatedDarkViolet;
+}
+@tailwind components;
+@tailwind utilities;
